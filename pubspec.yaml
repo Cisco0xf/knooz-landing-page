@@ -45,7 +45,6 @@ dependencies:
     sdk: flutter
   morph_switch: ^1.0.3
   font_awesome_flutter: ^10.9.0
-  flutter_native_splash: ^2.4.4
   clipboard: ^2.0.2
   toastification: ^2.3.0
 
