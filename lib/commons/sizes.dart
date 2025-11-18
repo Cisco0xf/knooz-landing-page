@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:knooz_docs_api/commons/navigator_key.dart';
 import 'package:knooz_docs_api/commons/screen_dimentions.dart';
 
 class WidgetsSize {
-  static final BuildContext _context =
-      navigatorKey.currentContext as BuildContext;
+  /* static final BuildContext _context =
+      navigatorKey.currentContext as BuildContext; */
 
   static double logoSize(BuildContext context) {
     if (context.isMobile) {

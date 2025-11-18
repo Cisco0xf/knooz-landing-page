@@ -13,7 +13,6 @@ import 'package:knooz_docs_api/constants/colors.dart';
 import 'package:knooz_docs_api/constants/enums.dart';
 import 'package:knooz_docs_api/constants/text_styles.dart';
 import 'package:knooz_docs_api/constants/texts.dart';
-import 'package:knooz_docs_api/presentations/web_view/navigation_tabs/tabs_management.dart';
 import 'package:knooz_docs_api/presentations/web_view/sections/download_section/download_dialog.dart';
 import 'package:knooz_docs_api/presentations/web_view/sections/download_section/more_info_dialog.dart';
 import 'package:knooz_docs_api/statemanagement/theme_switcher.dart';

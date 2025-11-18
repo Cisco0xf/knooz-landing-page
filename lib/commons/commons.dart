@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:knooz_docs_api/commons/screen_dimentions.dart';
 import 'package:knooz_docs_api/commons/sizes.dart';
 import 'package:knooz_docs_api/constants/enums.dart';
 import 'package:knooz_docs_api/constants/text_styles.dart';
-import 'package:knooz_docs_api/constants/texts.dart';
 import 'package:toastification/toastification.dart';
 
 // Padding and margin
