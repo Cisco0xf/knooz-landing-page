@@ -56,7 +56,6 @@ const List<DeveloperData> devData = [
     label: "WhatsApp",
     targetUrl: "http://wa.me/+201207269113",
   ),
- 
   DeveloperData(
     color: Colors.amber,
     icon: FontAwesomeIcons.stackOverflow,
@@ -207,6 +206,7 @@ class _HadithState extends ConsumerState<Hadith> {
 }
 
 //
+const String reportLink = "https://forms.gle/anGj3st8UGWcqCUZA";
 
 class Report extends ConsumerWidget {
   const Report({super.key, this.isMobile = false});
@@ -232,9 +232,7 @@ class Report extends ConsumerWidget {
           ),
           child: Clicker(
             onTap: () async {
-              await OpenUrl.launchWebUrl(
-                target: "https://forms.gle/anGj3st8UGWcqCUZA",
-              );
+              await OpenUrl.launchWebUrl(target: reportLink);
             },
             innerPadding: 10.0,
             child: Row(
